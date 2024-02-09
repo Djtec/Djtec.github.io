@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>membrete</title>
+<style type="text/css">
+<!--
+.style2 {
+	color: #C5B81B;
+	font-size: 24px;
+}
+body {
+	background-color: #005680;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+</head>
+
+<body>
+<table width="898" height="69" border="0" align="center">
+  <tr>
+    <th width="155" align="left" scope="col"><img src="videos/capo.gif" width="152" height="44" /></th>
+    <th width="793" scope="col"><span class="style2">REDES INFORMATICAS</span></th>
+  </tr>
+  <tr>
+    <td colspan="2"><form name="form1" id="form1">
+      <select name="menu1" onchange="MM_jumpMenu('parent.frames[\'mainFrame\']',this,1)">
+        <option value="indexar.html">Home</option>
+        <option value="redes2.html">Redes</option>
+        <option value="tipos de redes.html">tipos de redes</option>
+        <option value="Topologia de las redes .html">topologia de las redes</option>
+        <option value="Importancia de una Red Informatica.html">importancia de las Redes</option>
+        <option value="Origen de las redes informaticas.html">Origen de las redes informartica</option>
+        <option value="Elementos basicos de una red.html">Elementos basicos de una red de Computadoras</option>
+        <option value="Elementos de una red.html">Elementos de una red</option>
+        <option value="Ventajas y Desventajas de una red.html">Ventajas y Desventajas de una red</option>
+        <option value="Modelo OSI.html">Modelo OSI</option>
+        <option value="Capas del Modelo OSI.html">Capas del Modelo OSI</option>
+        <option value="Como Funciona y para que Sirve el Modelo OSI.html">Como Funciona y para que Sirve el Modelo OSI</option>
+            </select>
+      <input type="button" name="Button1" value="Go" onclick="MM_jumpMenuGo('menu1','parent.frames[\'mainFrame\']',1)" />
+    </form></td>
+  </tr>
+</table>
+</body>
+</html>
